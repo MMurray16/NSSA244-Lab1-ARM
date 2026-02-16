@@ -189,7 +189,6 @@
                         "caching": "ReadWrite",
                         "managedDisk": {
                             "storageAccountType": "Premium_LRS",
-                            "id": "[resourceId('Microsoft.Compute/disks', concat(parameters('virtualMachines_WEB1_name'), '_OsDisk_1_76182d50eef842cb8f495d9585b36abd'))]"
                         },
                         "deleteOption": "Delete",
                         "diskSizeGB": 30
